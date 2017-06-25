@@ -2,7 +2,7 @@
 FROM node:7-onbuild
 
 # set maintainer
-MAINTAINER "haidv67732co-well.com.vn"
+MAINTAINER "haidv6773@co-well.com.vn"
 
 # set a health check
 HEALTHCHECK --interval=5s \
