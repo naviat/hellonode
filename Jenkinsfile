@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("naviat/hellonode")
+        app = docker.build("naviat/centos-lamp-ex")
     }
 
     stage('Test image') {
